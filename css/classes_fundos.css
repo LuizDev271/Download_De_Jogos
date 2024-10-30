@@ -1,6 +1,6 @@
 /*Classes
 ----------------------*/
-.forager, .reven, .punch, .stardew, .hollow, .messenger, .dead, .moon, .enter, .dark, .mana, .noita, .rain, .blas, .blood{
+.forager, .reven, .punch, .stardew, .hollow, .messenger, .dead, .moon, .enter, .dark, .mana, .noita, .rain, .blas, .blood, .sub, .raft, .slime, .potion{
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.509);
 }
 
@@ -16,22 +16,22 @@
     border-top: 1px solid #D9AD29;
 }
 
+.raft{
+    background-color: #2D77A6;
+    border-bottom: 1px solid #254559;
+    border-top: 1px solid #254559;
+}
+
+.sub{
+    background-color: #035AA6;
+    border-bottom: 1px solid #F28627;
+    border-top: 1px solid #F28627;
+}
+
 .punch{
     background-color: #BF1534;
     border-bottom: 1px solid #F2E4E4;
     border-top: 1px solid #F2E4E4;
-}
-
-.stardew{
-    background-color: #0F0240;
-    border-bottom: 1px solid #F29F05;
-    border-top: 1px solid #F29F05;
-}
-
-.grave{
-    background-color: #010326;
-    border-bottom: 1px solid #8C1A0F;
-    border-top: 1px solid #8C1A0F;
 }
 
 .happy{
@@ -117,9 +117,35 @@
     border-top: 1px solid #04BF33;
 }
 
+/*Classes - Fazenda
+-------------------------*/
+.stardew{
+    background-color: #0F0240;
+    border-bottom: 1px solid #F29F05;
+    border-top: 1px solid #F29F05;
+}
+
+.grave{
+    background-color: #010326;
+    border-bottom: 1px solid #8C1A0F;
+    border-top: 1px solid #8C1A0F;
+}
+
+.slime{
+    background-color: #F21365;
+    border-bottom: 1px solid #049DD9;
+    border-top: 1px solid #049DD9;
+}
+
+.potion{
+    background-color: #FF1E1F;
+    border-bottom: 1px solid #8C4637;
+    border-top: 1px solid #8C4637;
+}
+
 /*Classes Laterais
 ----------------------*/
-.forager-lateral, .reven-lateral, .punch-lateral, .stardew-lateral, .hollow-lateral, .messenger-lateral, .dead-lateral, .moon-lateral, .enter-lateral, .dark-lateral, .mana-lateral, .noita-lateral, .rain-lateral, .blas-lateral, .blood-lateral{
+.forager-lateral, .reven-lateral, .punch-lateral, .stardew-lateral, .hollow-lateral, .messenger-lateral, .dead-lateral, .moon-lateral, .enter-lateral, .dark-lateral, .mana-lateral, .noita-lateral, .rain-lateral, .blas-lateral, .blood-lateral, .sub-lateral, .raft-lateral, .slime-lateral, .potion-lateral{
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.509);
 }
 
@@ -135,22 +161,22 @@
     border-right: 1px solid #D9AD29;
 }
 
+.raft-lateral{
+    background-color: #2D77A6;
+    border-bottom:  1px solid #254559;
+    border-right: 1px solid #254559;
+}
+
+.sub-lateral{
+    background-color: #035AA6;
+    border-bottom: 1px solid #F28627;
+    border-right: 1px solid #F28627;
+}
+
 .punch-lateral{
     background-color: #BF1534;
     border-bottom: 1px solid white;
     border-right: 1px solid white;    
-}
-
-.stardew-lateral{
-    background-color: #0F0240;
-    border-bottom: 1px solid #F29F05;
-    border-right: 1px solid #F29F05;    
-}
-
-.grave-lateral{
-    background-color: #010326;
-    border-bottom: 1px solid #8C1A0F;
-    border-right: 1px solid #8C1A0F;
 }
 
 .happy-lateral{
@@ -234,5 +260,32 @@
     background-color: #011C40;
     border-bottom: 1px solid #04BF33;
     border-right: 1px solid #04BF33;
+}
+
+/*Classes - Fazenda
+----------------------*/
+
+.stardew-lateral{
+    background-color: #0F0240;
+    border-bottom: 1px solid #F29F05;
+    border-right: 1px solid #F29F05;    
+}
+
+.grave-lateral{
+    background-color: #010326;
+    border-bottom: 1px solid #8C1A0F;
+    border-right: 1px solid #8C1A0F;
+}
+
+.slime-lateral{
+    background-color: #F21365;
+    border-bottom: 1px solid #049DD9;
+    border-right: 1px solid #049DD9;
+}
+
+.potion-lateral{
+    background-color: #FF1E1F;
+    border-bottom: 1px solid #8C4637;
+    border-right: 1px solid #8C4637;
 }
 

@@ -20,7 +20,7 @@
 
     <header>
 
-      <nav id="principal" class="navbar navbar-expand-sm dead">
+      <nav id="principal" class="navbar navbar-expand-sm stardew">
 
         <button style="border: 1px solid white;" class="navbar-toggler" data-toggle="collapse" data-target="#navegacao"> <!-- Hamburguer -->
           <span><img src="../imagens/Mobile/icon-mobile.png" width="35" height="35" alt=""></span>
@@ -42,13 +42,13 @@
             <li class="nav-item divisor"></li>
 
             <li class="nav-item ml-2">
-              <a class="nav-link text-white" href="#">Roguelikes</a>
+              <a class="nav-link text-white" href="roguelikes.html">Roguelikes</a>
             </li>
 
             <li class="nav-item divisor"></li>
 
             <li class="nav-item ml-2">
-              <a class="nav-link text-white" href="fazenda.html">Fazenda</a>
+              <a class="nav-link text-white" href="#">Fazenda</a>
             </li>
           </ul>
 
@@ -58,25 +58,19 @@
 
     </header>
 
-    <nav id="lista-lateral" class="d-none d-md-block" style="height: 112px;"> <!--Nav Jogos-->
+    <nav id="lista-lateral" class="d-none d-md-block"> <!--Nav Jogos-->
       <ul>
         <li class="item-lateral">
-          <a onclick="FundoDead()" class="text-white" data-target="#carousel" data-slide-to="0">Dead Cells</a>
+          <a onclick="FundoStardew()" class="text-white" data-target="#carousel" data-slide-to="0">Stardew <br> Valley</a>
         </li>
         <li class="item-lateral">
-          <a onclick="FundoMoon()" class="text-white" data-target="#carousel"data-slide-to="1">Moonlighter</a>
+          <a onclick="FundoGrave()" class="text-white" data-target="#carousel" data-slide-to="1">Graveyard  keeper </a>
         </li>
         <li class="item-lateral">
-          <a onclick="FundoEnter()" class="text-white" data-target="#carousel" data-slide-to="2">Enter the Gungeon</a>
+          <a onclick="FundoSlime()" class="text-white" data-target="#carousel" data-slide-to="2">Slime Rancher</a>
         </li>
         <li class="item-lateral">
-          <a onclick="FundoDark()" class="text-white" data-target="#carousel" data-slide-to="3">Darkest Dungeon</a>
-        </li>
-        <li class="item-lateral">
-          <a onclick="FundoMana()" class="text-white" data-target="#carousel" data-slide-to="4">Mana Spark</a>
-        </li>
-        <li class="item-lateral">
-          <a onclick="FundoNoita()" class="text-white" data-target="#carousel" data-slide-to="5">Noita</a>
+          <a onclick="FundoPotion()" class="text-white" data-target="#carousel" data-slide-to="3">Potion Permit</a>
         </li>
       </ul>
     </nav> <!--Fim Nav Jogos-->
@@ -90,66 +84,46 @@
 
               <!--Indicadores-->
               <ol class="carousel-indicators">
-                <li onclick="FundoDead()" class="active" data-target="#carousel" data-slide-to="0"></li>
-                <li onclick="FundoMoon()" data-target="#carousel" data-slide-to="1"></li>
-                <li onclick="FundoEnter()" data-target="#carousel" data-slide-to="2"></li>
-                <li onclick="FundoDark()" data-target="#carousel" data-slide-to="3"></li>
-                <li onclick="FundoMana()" data-target="#carousel" data-slide-to="4"></li>
-                <li onclick="FundoNoita()" data-target="#carousel" data-slide-to="5"></li>
+                <li onclick="FundoStardew()" class="active" data-target="#carousel" data-slide-to="0"></li>
+                <li onclick="FundoGrave()" data-target="#carousel" data-slide-to="1"></li>
+                <li onclick="FundoSlime()" data-target="#carousel" data-slide-to="2"></li>
+                <li onclick="FundoPotion()" data-target="#carousel" data-slide-to="3"></li>
               </ol>
 
               <div class="carousel-inner"><!--COMEÇO Inner-->
 
                 <div class="carousel-item active">
-                  <div class="roguelike jogos"></div>
+                  <div class="farm jogos"></div>
                   
                   <div class="carousel-caption">
-                    <a href="https://mega.nz/file/tRZlAZxI#1mRp0PJ_tHJJSveZjBofLyLA7mRKTHjBvsidzzhGd8c" target="_blank"><button onfocus="corBotao()" onblur="botaoNormal()" class="btn btn-primary btn-lg btn-block" type="button">DOWNLOAD</button></a>
+                    <a href="https://mega.nz/file/xcoklYZB#ZG2Ox7BuppORWj9DTNUbRXnWMWD159qqMrnsJ3ArVFc" target="_blank"><button onfocus="corBotao()" onblur="botaoNormal()" class="btn btn-primary btn-lg btn-block" type="button">DOWNLOAD</button></a>
                   </div>
 
                 </div>
 
                 <div class="carousel-item">
-                  <div class="roguelike2 jogos"></div>
+                  <div class="farm2 jogos"></div>
 
                   <div class="carousel-caption">
-                    <a href="https://mega.nz/file/lJJmGBxB#j75WWpsAMnRSBRPGmFeQmHqcKboq1LDWE2Dbfao6Kj8" target="_blank"><button onfocus="corBotao()" onblur="botaoNormal()" class="btn btn-primary btn-lg btn-block" type="button">DOWNLOAD</button></a>
+                    <a href="https://mega.nz/file/dJhlHIzC#XBWOSNeCc2Q1E8_rk__ii6epIHxzHWq1gduIEzlbW18" target="_blank"><button onfocus="corBotao()" onblur="botaoNormal()" class="btn btn-primary btn-lg btn-block" type="button">DOWNLOAD</button></a>
                   </div>
 
                 </div>
 
                 <div class="carousel-item">
-                  <div class="roguelike3 jogos"></div>
+                  <div class="farm3 jogos"></div>
 
                   <div class="carousel-caption">
-                    <a href="https://mega.nz/file/RcQxAK6I#S9GkfU1KdKi8BKM4xknKltE3Lzpo3zCfJXAN9Fdpgms" target="_blank"><button onfocus="corBotao()" onblur="botaoNormal()" class="btn btn-primary btn-lg btn-block" type="button">DOWNLOAD</button></a>
+                    <a href="https://drive.google.com/file/d/1KSrh100FoRC0AgmvaiC1-428L17B5yn9/view?usp=sharing" target="_blank"><button onfocus="corBotao()" onblur="botaoNormal()" class="btn btn-primary btn-lg btn-block" type="button">DOWNLOAD</button></a>
                   </div>
 
                 </div>
 
                 <div class="carousel-item">
-                  <div class="roguelike4 jogos"></div>
+                  <div class="farm4 jogos"></div>
 
                   <div class="carousel-caption">
-                    <a href="https://drive.google.com/file/d/1EZ1HuAKXwU0gtvCX33i3NK9T-Izl4oER/view?usp=drive_link" target="_blank"><button onfocus="corBotao()" onblur="botaoNormal()" class="btn btn-primary btn-lg btn-block" type="button">DOWNLOAD</button></a>
-                  </div>
-
-                </div>
-
-                <div class="carousel-item">
-                  <div class="roguelike5 jogos"></div>
-
-                  <div class="carousel-caption">
-                    <a href="https://mega.nz/file/VUAUjJBD#uAST0XkdgG67O9sF99cm0SIkgq06pXgbqsvdy4UEnH8" target="_blank"><button onfocus="corBotao()" onblur="botaoNormal()" class="btn btn-primary btn-lg btn-block" type="button">DOWNLOAD</button></a>
-                  </div>
-
-                </div>
-
-                <div class="carousel-item">
-                  <div class="roguelike6 jogos"></div>
-
-                  <div class="carousel-caption">
-                    <a href="https://drive.google.com/file/d/1W5_T8JEX8FQT1dlhrEM_SkJJm2v1_37i/view?usp=drive_link" target="_blank"><button onfocus="corBotao()" onblur="botaoNormal()" class="btn btn-primary btn-lg btn-block" type="button">DOWNLOAD</button></a>
+                    <a href="https://drive.google.com/file/d/1hminaH4l7TnOBsIavqXFKl5gkOV5oHcY/view?usp=sharing" target="_blank"><button onfocus="corBotao()" onblur="botaoNormal()" class="btn btn-primary btn-lg btn-block" type="button">DOWNLOAD</button></a>
                   </div>
 
                 </div>
@@ -175,12 +149,12 @@
       </div>
     </div> <!--Fim Jogos-->
 
-    <footer id="rodape" class="fixed-bottom dead">
+    <footer id="rodape" class="fixed-bottom stardew">
       <h4>Site criado por <a href="https://github.com/Ziulzin251" target="_blank">Ziulzin251</a> &copy;</h4>
     </footer>
     
     <script src="../Js/botoes.js"></script>
-  
+    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -192,7 +166,7 @@
     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" 
     crossorigin="anonymous"></script>
 
-    <script src="../Js/fundos_roguelike.js"></script>
+    <script src="../Js/fundos_farm.js"></script>
     
   </body>
 </html>

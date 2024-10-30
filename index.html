@@ -14,14 +14,6 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="Bootstrap4/css/bootstrap.css">
 
-    <!-- Normalize CSS -->
-    <link rel="stylesheet" href="Otimizacoes/Normalize_Css.css">
-
-    <!-- HTML5SHIV -->
-    <!--[if lt IE 9]>
-	    <script src="_Otimizacoes/html5shiv.js"></script>
-    <![endif]-->
-
     <title>Jogos</title>
   </head>
   <body style="height: 796px;">
@@ -52,6 +44,12 @@
             <li class="nav-item ml-2">
               <a class="nav-link text-white" href="Html/roguelikes.html">Roguelikes</a>
             </li>
+
+            <li class="nav-item divisor"></li>
+
+            <li class="nav-item ml-2">
+              <a class="nav-link text-white" href="Html/fazenda.html">Fazenda</a>
+            </li>
           </ul>
 
         </div>
@@ -61,23 +59,23 @@
     </header>
   
     <nav id="lista-lateral" class="d-none d-md-block"> <!--Nav Jogos-->
-      <ul>
-        <li id="item-lateral">
+      <ul style="margin-bottom: calc(-16px);">
+        <li class="item-lateral">
           <a class="text-white" onclick="FundoForager()" data-target="#carousel" data-slide-to="0">Forager</a>
         </li>
-        <li id="item-lateral2">
+        <li class="item-lateral">
           <a class="text-white" onclick="FundoReven()" data-target="#carousel" data-slide-to="1">Reventure</a>
         </li>
-        <li id="item-lateral3">
+        <li class="item-lateral">
           <a class="text-white" onclick="FundoPunch()" data-target="#carousel" data-slide-to="2">Punch Club</a>
         </li>
-        <li id="item-lateral4">
-          <a class="text-white" onclick="FundoStardew()" data-target="#carousel" data-slide-to="3">Stardew <br>Valley</a>
+        <li class="item-lateral">
+          <a class="text-white" onclick="FundoRaft()" data-target="#carousel" data-slide-to="3">Raft</a>
         </li>
-        <li id="item-lateral5">
-          <a class="text-white" onclick="FundoGrave()" data-target="#carousel" data-slide-to="4">Graveyard Keeper</a>
+        <li class="item-lateral">
+          <a class="text-white" onclick="FundoSub()" data-target="#carousel" data-slide-to="4">Subnautica</a>
         </li>
-        <li id="item-lateral6">
+        <li class="item-lateral">
           <a class="text-white" onclick="FundoHappy()" data-target="#carousel" data-slide-to="5">Happy Room</a>
         </li>
       </ul>
@@ -134,7 +132,7 @@
                   <div class="jogo4 jogos"></div>
 
                   <div class="carousel-caption">
-                    <a href="https://mega.nz/file/xcoklYZB#ZG2Ox7BuppORWj9DTNUbRXnWMWD159qqMrnsJ3ArVFc" target="_blank"><button onfocus="corBotao()" onblur="botaoNormal()" class="btn btn-primary btn-lg btn-block" type="button">DOWNLOAD</button></a>
+                    <a href="https://drive.google.com/file/d/1HbSHCZKom1DG7sSN65Xuv4GYPJWGmXq6/view?usp=sharing" target="_blank"><button onfocus="corBotao()" onblur="botaoNormal()" class="btn btn-primary btn-lg btn-block" type="button">DOWNLOAD</button></a>
                   </div>
 
                 </div>
@@ -143,7 +141,7 @@
                   <div class="jogo5 jogos"></div>
 
                   <div class="carousel-caption">
-                    <a href="https://mega.nz/file/dJhlHIzC#XBWOSNeCc2Q1E8_rk__ii6epIHxzHWq1gduIEzlbW18" target="_blank"><button onfocus="corBotao()" onblur="botaoNormal()" class="btn btn-primary btn-lg btn-block" type="button">DOWNLOAD</button></a>
+                    <a href="https://drive.google.com/file/d/1oz99JiA8dfwh7Vyc88NRgT9fqNlYrKrj/view?usp=sharing" target="_blank"><button onfocus="corBotao()" onblur="botaoNormal()" class="btn btn-primary btn-lg btn-block" type="button">DOWNLOAD</button></a>
                   </div>
 
                 </div>
@@ -183,13 +181,19 @@
     </footer>
     
     <script src="Js/botoes.js"></script>
-    <script src="Js/fundos.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" 
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" 
+    crossorigin="anonymous"></script>
+
+    <script src="Js/fundos.js"></script>
     
   </body>
 </html>

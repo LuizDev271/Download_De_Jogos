@@ -28,7 +28,7 @@ div.jogo3{
 div.jogo4{
     width: 920px;
     height: 650px;
-    background: url(../imagens/Jogos/Stardew.jpg);
+    background: url(../imagens/Jogos/Raft.png);
     background-size: cover;
     background-position: center;
 }
@@ -36,7 +36,7 @@ div.jogo4{
 div.jogo5{
     width: 920px;
     height: 650px;
-    background: url(../imagens/Jogos/Grave.jpg);
+    background: url(../imagens/Jogos/Sub.png);
     background-size: cover;
     background-position: left;
 }
@@ -151,5 +151,36 @@ div.roguelike6{
     background-position: center;
 }
 
-/*Rodape
+/*Fazenda
 ----------------------------*/
+div.farm{
+    width: 920px;
+    height: 650px;
+    background: url(../imagens/farm/Stardew.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+div.farm2{
+    width: 920px;
+    height: 650px;
+    background: url(../imagens/farm/Grave.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+div.farm3{
+    width: 920px;
+    height: 650px;
+    background: url(../imagens/farm/Slime.png);
+    background-size: cover;
+    background-position: center;
+}
+
+div.farm4{
+    width: 920px;
+    height: 650px;
+    background: url(../imagens/farm/Potion.png);
+    background-size: cover;
+    background-position: center;
+}
