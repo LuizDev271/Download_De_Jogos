@@ -6,6 +6,13 @@ var x = 0
 //Barra Lateral Inicial
 $('.item-lateral').addClass('hollow-lateral')
 
+//Links Laterais + Indicadores Carrosel
+$('[data-slide-to]').attr('data-target', '#carousel')
+
+//Links Download
+$('.link-download').attr('target', '_blank')
+$('[type="button"]').attr('onfocus', 'corBotao()').attr('onblur', 'botaoNormal()')
+
 //Função >> muda o estilo de acorda que passa de jogo
 function FundoVai(){
     if(x >= listas - 1){
